@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Financial Manager</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="transactions_count">Number of Transactions</string>
+    <string name="summary">Summary</string>
+    <string name="main_page">Home</string>
+    <string name="expenses">Expenses</string>
+    <string name="incomes">Revenue</string>
+    <string name="monthly_statistics">Monthly Summary</string>
+    <string name="add_expense">Add</string>
+    <string name="edit">Edit</string>
+    <string name="null_string"></string>
+    <string name="hint_name">Place of transaction</string>
+    <string name="hint_price">Sum</string>
+    <string name="hint_date">date and time</string>
+    <string name="month_stats">Balance</string>
+    <string name="search">Search</string>
+    <string name="share">Share</string>
+    <string name="send">Send financial report...</string>
+    <string name="name">Name</string>
+    <string name="category">Category</string>
+    <string name="date">Data</string>
+
+    <string-array name="add_category_spinner">
+        <item>Other expenses</item>
+        <item>Other fees and bills</item>
+        <item>Transfer</item>
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Apartment</item>
+        <item>Health and hygiene</item>
+        <item>Clothes</item>
+        <item>Relax</item>
+    </string-array>
+
+    <string-array name="month_spinner">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
