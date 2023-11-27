@@ -593,7 +593,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 return "09";
             case "October":
                 return "10";
-            case "Listopad":
+            case "November":
                 return "11";
             case "December":
                 return "12";

@@ -73,11 +73,11 @@ public class Event {
         DecimalFormat decim = new DecimalFormat("0.00");
         String final_price = decim.format(Double.parseDouble(price));
 
-        return "--- Wpis managera finansowego ---\n" +
-                "Koszt: " + final_price + " zł\n" +
-                "Miejsce: " + place_name + "\n" +
-                "Kategoria: " + category + "\n" +
-                "Data wpisu: " + date + "\n" +
-                "Raport sporządzony w dniu: " + curr_date;
+        return "--- Financial manager entry ---\n" +
+                "Cost: Rs." + final_price + "\n" +
+                "Place: " + place_name + "\n" +
+                "Category: " + category + "\n" +
+                "Entry date: " + date + "\n" +
+                "Report prepared on: " + curr_date;
     }
 }
